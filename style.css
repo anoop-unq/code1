@@ -8,10 +8,9 @@ body{
 }
 .container {
     background-size: cover;
-    background-color: aliceblue;
     display: flex;
     width: 1400px;
-    flex-direction: flex-start;
+    margin: 75px;
     justify-content: center;
     align-items: center;
     padding-top: 51px;
@@ -19,7 +18,6 @@ body{
 .container-inner{
     display: flex;
     width: 550px;
-    background-color: azure;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -30,6 +28,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 21px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     position: relative;
@@ -43,14 +42,13 @@ img{
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0;
+    top: 100px;
     max-height: 0;
     overflow: hidden;
     border-bottom: 0px solid rgb(220, 0, 0);
 }
 .container-inner:hover .layer{
     max-height: 700px;
-    padding-top: 51px;
     transition: 3.5s;
 
 }
@@ -78,6 +76,9 @@ img{
 }
 .info:hover{
     transform: translateY(-25px);
+}
+a{
+    text-decoration: none;
 }
 .icons a{
     width: 55px;
