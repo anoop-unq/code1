@@ -17,7 +17,7 @@ body{
 }
 .container-inner{
     display: flex;
-    width: 550px;
+    width: 100%;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -26,8 +26,6 @@ img{
     width: 450px;
     height: 60vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 21px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -49,7 +47,7 @@ img{
 }
 .container-inner:hover .layer{
     max-height: 700px;
-    transition: 3.5s;
+    transition: 0.5s;
 
 }
 .info {
@@ -62,7 +60,7 @@ img{
     text-align: center;
     box-shadow: 0px 0px 25px rgb(127, 127, 128);
     margin-bottom: 35px;
-    transform: 1s;
+    transform: 0.5s;
 }
 .icons{
     display: flex;
