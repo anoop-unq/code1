@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
 .container {
     background-size: cover;
     display: flex;
@@ -17,7 +13,6 @@ body{
 }
 .container-inner{
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -36,9 +31,6 @@ img{
     filter: grayscale(100%);
 }
 .layer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
     position: absolute;
     top: 100px;
     max-height: 0;
@@ -46,8 +38,8 @@ img{
     border-bottom: 0px solid rgb(220, 0, 0);
 }
 .container-inner:hover .layer{
-    max-height: 700px;
-    transition: 0.5s;
+    max-height: 1000px;
+    transition: 1s;
 
 }
 .info {
