@@ -4,14 +4,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;   
-    position: relative;
-}
-.head11{
-    position: absolute;
-    top: 75px;
-    left: 50px;
-    font-size: 41px;
-    color: rgb(16, 24, 185);
 }
 .chessBoard{
     width: 80vw;
